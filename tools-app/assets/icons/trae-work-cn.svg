@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="traeWorkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00B8E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0077AA;stop-opacity:1" />
+    </linearGradient>
+    <filter id="traeWorkGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#traeWorkGrad)" filter="url(#traeWorkGlow)"/>
+  <text x="26" y="42" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="white" text-anchor="middle">T</text>
+  <circle cx="48" cy="48" r="12" fill="#0A1628" stroke="#00D4FF" stroke-width="1.5"/>
+  <text x="48" y="53" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#00D4FF" text-anchor="middle">W</text>
+</svg>

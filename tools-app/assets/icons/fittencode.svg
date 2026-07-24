@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="grad_fittencode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:0.7" />
+    </linearGradient>
+    <filter id="glow_fittencode">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" ry="14" fill="url(#grad_fittencode)" filter="url(#glow_fittencode)"/>
+  <text x="32" y="42" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">F</text>
+</svg>
